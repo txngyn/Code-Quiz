@@ -1,0 +1,111 @@
+#question {
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(6, 0, 0);
+}
+
+#intro {
+    display:block;
+    font-size: 20px;
+    color: rgb(64, 104, 217);
+    
+}
+
+#justify {
+    display: none;
+}
+
+#quiz {
+    display: none;
+}
+
+#form {
+    display: none;
+}
+
+#clear { 
+    display: none;
+    width: 160px;
+    text-align: center;
+    float: left;
+}
+
+#goback{
+    display: none;
+    float: right;
+    width: 160px;
+    text-align: center;
+}
+
+.container {
+    border: solid 1px black;
+}
+
+.startbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* edit this one */
+.buttonbutton {
+    background-color: grey;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonbutton:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 58, 255);
+    text-decoration: underline;
+}
+
+#justify {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(247, 115, 115);
+    font-size: 28px;
+    font-style: italic;
+}
+
+#timer {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(125, 155, 239);
+}
+
+#score {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#score:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#inputname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#scorelist {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: beige;
+    padding: 5px;
+    background-color: rgb(148, 164, 226);
+    font-style: italic;
+}
+
+#userlist { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(191, 157, 209);
+    color: beige;
+}

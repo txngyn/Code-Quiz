@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Style links -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Java Quiz</title>
+</head>
+<body>
+
+    <!-- Main Content -->
+    <div class="container">
+    <div class="row">
+        <div class="col-6">
+            <p id="score"> View Score Chart </p>
+        </div>
+        <div class="col-6" >
+            <label for="name" id="timer">Your time is: <span id="seconds"> &nbsp; 75</span></label>
+        </div>
+    </div>
+    
+        <h1 id="question" class="text-center">Coding Quiz Challenge</h1>
+        <h3 id="intro" class="text-center">Welcome to the coding quiz! Press the Start button to start the quiz,
+            noting the timer will start as soon as you do. Once done, you will be
+            directed to enter your name to log your score.</h3>
+        <div class="startbutton">
+            <button id="start" class="buttonbutton"> Start Quiz </button>
+        </div>
+        
+        <hr>
+        <div id="quiz">
+            <ol type="A" id="choices">
+                <li>
+                    <button class="choice buttonbutton" id="A"></button>
+                </li>
+                <li>
+                    <button class="choice buttonbutton" id="B"></button>
+                </li>
+                <li>
+                    <button class="choice buttonbutton" id="C"></button>
+                </li>
+                <li>
+                    <button class="choice buttonbutton" id="D"></button>
+                </li>   
+            </ol>
+                
+        </div>
+            <p id="justify"></p>
+            <p id="alert"></p>
+        <div class="form" id="form">
+            <label for="name" id="inputname">Your Name: </label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            <button id="submit" class="buttonbutton"> Submit </button>
+        </div>
+            <ul id="scorelist"></ul>
+        <div class="row">
+            <div class="col-6">
+                <button id="goback" class="buttonbutton"> Go Back </button>
+            </div>
+            <div class="col-6">
+                <button id="clear" class="buttonbutton"> Clear Highscores </button>
+            </div>
+        </div>
+        <div id="list">
+            <ol type="i" id="userlist"></ol>
+        </div>
+</div>
+
+<!-- JavaScript Link  -->
+<script src="question.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
