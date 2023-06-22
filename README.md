@@ -22,4 +22,4 @@
 
 
 
-Link:
+Link: https://txngyn.github.io/Code-Quiz/
